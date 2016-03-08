@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<queue-entries>
+	<queue>
+		<name>sendEmails</name>
+		<rate>5/s</rate>
+		<retry-parameters>
+			<task-retry-limit>5</task-retry-limit>
+		</retry-parameters>
+	</queue>
+
+</queue-entries>
